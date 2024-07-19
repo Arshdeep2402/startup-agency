@@ -1,3 +1,5 @@
+'use client'
+//import { curve, heroBackground, robot } from "../assets";
 import { curve, heroBackground, robot } from "../../public/assets";
 import Button from "./Button";
 import Section from "./Section";
@@ -8,7 +10,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
-
+import Image from "next/image";
 const Hero = () => {
   const parallaxRef = useRef(null);
 
@@ -26,7 +28,7 @@ const Hero = () => {
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
               Brainwave{" "}
-              <img
+              <Image
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
                 width={624}
@@ -49,7 +51,7 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <img
+                <Image
                   src={robot}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
@@ -63,7 +65,7 @@ const Hero = () => {
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
+                        <Image src={icon} width={24} height={25} alt={icon} />
                       </li>
                     ))}
                   </ul>
@@ -81,7 +83,7 @@ const Hero = () => {
             <Gradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
+            <Image
               src={heroBackground}
               className="w-full"
               width={1440}
