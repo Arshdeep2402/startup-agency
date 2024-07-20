@@ -75,6 +75,10 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import potrait from "./test/potrait.jpg";
+import potrait1 from "./test/potrait1.jpg";
+
+
 export {
   brainwave,
   check,
@@ -144,4 +148,6 @@ export {
   instagram,
   telegram,
   twitter,
+  potrait,
+  potrait1
 };

@@ -20,6 +20,8 @@ import {
   notion,
   photoshop,
   plusSquare,
+  potrait,
+  potrait1,
   protopie,
   raindrop,
   recording01,
@@ -68,6 +70,11 @@ export const navigation = [
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
+  },
+  {
+    id: "6",
+    title: "About Us",
+    url: "/about-us",
   },
 ];
 
@@ -324,5 +331,42 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+  },
+];
+
+
+export const intro = [
+  {
+    id: "0",
+    title: "Akshit Bathla",
+    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    date: "May 2023",
+    status: "done",
+    imageUrl: potrait1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Harsh Gupta",
+    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: potrait1,
+  },
+  {
+    id: "2",
+    title: "Ritik Rozra",
+    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    date: "May 2023",
+    status: "done",
+    imageUrl: potrait1,
+  },
+  {
+    id: "3",
+    title: "Arshdeep Singh",
+    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: potrait1,
   },
 ];
