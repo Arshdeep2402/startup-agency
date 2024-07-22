@@ -89,8 +89,8 @@ const OurServices = () => {
           <div  className="px-2 py-2">IT Support</div>
           <div  className="px-2 py-2">Web Designing</div>
           <div className="px-2 py-2 pr-4">Digital Marketing</div> */}
-                    {serviceList.map((item) => (
-                        <div className={`cursor-pointer ${selectedService === item ? "px-4 py-4 text-black bg-white rounded-2xl" : "px-4 py-4"}`} onClick={() => setSelectedService(item)}>{item}</div>
+                    {serviceList.map((item, index) => (
+                        <div key={index} className={`cursor-pointer ${selectedService === item ? "px-4 py-4 text-black bg-white rounded-2xl" : "px-4 py-4"}`} onClick={() => setSelectedService(item)}>{item}</div>
                     ))}
 
                 </div>
