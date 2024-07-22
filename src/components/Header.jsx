@@ -7,6 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../../public/assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 const Header = () => {
   //const pathname = useLocation();
@@ -36,9 +37,9 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="/">
+        <Link className="block w-[12rem] xl:mr-8" href="/">
           <Image src={brainwave} width={190} height={40} alt="Brainwave" />
-        </a>
+        </Link>
 
         <nav
           className={`${
@@ -47,7 +48,7 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
@@ -60,7 +61,7 @@ const Header = () => {
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
-              </a>
+              </Link>
             ))}
           </div>
 

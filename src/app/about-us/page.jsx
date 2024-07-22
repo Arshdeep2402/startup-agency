@@ -27,7 +27,10 @@ const page = () => {
 
 
         
-        <Section className="overflow-hidden" id="roadmap">
+        <Section  id="roadmap" className="pt-[14rem] -mt-[5.25rem]"
+      crosses
+      crossesOffset="lg:translate-y-[5.25rem]"
+      customPaddings>
             <div className="container md:pb-10">
             <Heading tag="Our Team" title="What are We !" />
 
