@@ -19,7 +19,7 @@ import { Gradient } from '@/components/design/Roadmap'
 
 const page = () => {
 
-    const parallaxRef = useRef(null);
+    // const parallaxRef = useRef(null);
 
   return (
     <div>
