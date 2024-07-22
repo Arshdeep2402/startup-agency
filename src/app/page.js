@@ -10,6 +10,7 @@ import ButtonGradient from '../../public/assets/svg/ButtonGradient'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Section from '@/components/Section'
+import OurServices from '@/components/OurServices'
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
         <Header />
        
         <Hero />
+        <OurServices />
         <Benefits />
         <Collaboration />
         <Services />
