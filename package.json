@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "next": "14.2.5",
     "next-images": "^1.8.5",
     "next-plugin-svgr": "^1.1.10",
