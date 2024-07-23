@@ -19,7 +19,7 @@ import { benefits } from '@/constants'
 
 
 const page = () => {
-    
+
   return (
     <div>
         <Header />
@@ -45,7 +45,7 @@ const page = () => {
                     />
                     <div className="text-left mt-2">
                     <p className="font-semibold capitalize text-sm">
-                        let's get started!
+                        let&apos;s get started!
                     </p>
                     <p className="text-xs mt-1">Watch quick demo video</p>
                     </div>
