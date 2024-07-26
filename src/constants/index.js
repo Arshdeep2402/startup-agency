@@ -31,20 +31,12 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  
   slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
 } from "../../public/assets";
-
-
-
-
-
-
-
 
 export const navigation = [
   {
@@ -342,7 +334,6 @@ export const socials = [
   },
 ];
 
-
 export const intro = [
   {
     id: "0",
@@ -372,6 +363,14 @@ export const intro = [
   {
     id: "3",
     title: "Arshdeep Singh",
+    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    date: "May 2023",
+    status: "progress",
+    imageUrl: potrait1,
+  },
+  {
+    id: "4",
+    title: "Jiya Chugh",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
     date: "May 2023",
     status: "progress",
