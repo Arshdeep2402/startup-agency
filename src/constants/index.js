@@ -215,36 +215,24 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "Web Designing",
+    description: "Covering all the basics of FrontEnd.",
+    price: "5k",
+    features: ["HTML", "CSS, Bootstrap", "JavaScript"],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    title: "PHP Full Stack",
+    description: "It will consist of all the basics of web desiging + PHP.",
+    price: "9k",
+    features: ["CSS, Boostrap", "JavaScript, Jquery", "PHP, MySQL"],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "MERN Stack",
+    description: "Contains Web Desiging basics + MERN Stack.",
+    price: "13k",
+    features: ["React Js, Tailwind", "Node Js, Express Js", "MongoDB, MySQL"],
   },
 ];
 

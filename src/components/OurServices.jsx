@@ -10,72 +10,53 @@ import Image from "next/image";
 import { useState } from "react";
 const OurServices = () => {
   const serviceList = [
-    "Development",
-    "Search Engine Optimization",
-    "IT Support",
     "Web Designing",
+    "Web Development",
+    "Search Engine Optimization",
     "Digital Marketing",
   ];
 
   const servicesContent = [
     {
       id: "0",
-      title: "Development",
-      img1: service3,
-      img2: service3,
-      imgTilte1: "Web Development",
-      imgTilte2: "Mobile Development",
-      desc: `Software development is a dynamic and rapidly evolving field that plays a pivotal role in 
-            shaping the digital landscape we live in today. It encompasses the processes, methodologies, and 
-            practices used to design, create, deploy, and maintain software applications and systems.`,
-    },
-    {
-      id: "1",
-      title: "Search Engine Optimization",
-      img1: service3,
-      img2: service3,
-      imgTilte1: "Search Engine Optimization",
-      imgTilte2: "Search Engine Optimization",
-      desc: `Software development is a dynamic and rapidly evolving field that plays a pivotal role in 
-            shaping the digital landscape we live in today. It encompasses the processes, methodologies, and 
-            practices used to design, create, deploy, and maintain software applications and systems.`,
-    },
-    {
-      id: "2",
-      title: "IT Support",
-      img1: service3,
-      img2: service3,
-      imgTilte1: "IT Support",
-      imgTilte2: "IT Support",
-      desc: `Software development is a dynamic and rapidly evolving field that plays a pivotal role in 
-            shaping the digital landscape we live in today. It encompasses the processes, methodologies, and 
-            practices used to design, create, deploy, and maintain software applications and systems.`,
-    },
-    {
-      id: "3",
       title: "Web Designing",
       img1: service3,
       img2: service3,
       imgTilte1: "Web Designing",
       imgTilte2: "App Designing",
-      desc: `Software development is a dynamic and rapidly evolving field that plays a pivotal role in 
-            shaping the digital landscape we live in today. It encompasses the processes, methodologies, and 
-            practices used to design, create, deploy, and maintain software applications and systems.`,
+      desc: `In today’s digital environment, an online presence is essential for businesses of all sizes. A well-designed website not only acts as a digital storefront, it also builds trust, attracts potential customers, and encourages business ideas. If you offer web design services, you can become a marketing service leader by leveraging the power of an online presence.`,
     },
     {
-      id: "4",
+      id: "1",
+      title: "Web Development",
+      img1: service3,
+      img2: service3,
+      imgTilte1: "Web Development",
+      imgTilte2: "Mobile Development",
+      desc: `We offer comprehensive web design and development services to create an effective online presence. By focusing on user experience, mobile responsiveness, SEO, and optimization, you can deliver a website that not only looks great, but performs well. Our expertise in design and development can transform your online business and make it powerful in terms of engagement, growth, and success.`,
+    },
+    {
+      id: "2",
+      title: "Search Engine Optimization",
+      img1: service3,
+      img2: service3,
+      imgTilte1: "Search Engine Optimization",
+      imgTilte2: "Search Engine Optimization",
+      desc: `Providing search engine optimization and digital marketing services allows you to pave the way to online success. By combining these services, you can help your business improve search engine rankings, attract business customers, create policies, and achieve measurable results.`,
+    },
+
+    {
+      id: "3",
       title: "Digital Marketing",
       img1: service3,
       img2: service3,
       imgTilte1: "Digital Marketing",
       imgTilte2: "Digital Marketing",
-      desc: `Software development is a dynamic and rapidly evolving field that plays a pivotal role in 
-            shaping the digital landscape we live in today. It encompasses the processes, methodologies, and 
-            practices used to design, create, deploy, and maintain software applications and systems.`,
+      desc: `Digital marketing is an essential part of the modern business world. By specializing in services like SEO, PPC, digital marketing, content marketing, and email marketing, you can provide valuable skills that can transform your business online. Your services help businesses reach their target audience, build brand awareness, and deliver measurable results, making you a key partner in their success.`,
     },
   ];
 
-  const [selectedService, setSelectedService] = useState("Development");
+  const [selectedService, setSelectedService] = useState("Web Designing");
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
