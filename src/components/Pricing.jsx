@@ -4,14 +4,15 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 import Image from "next/image";
+import genvlogo from "../../public/assets/genvlogo.png";
 const Pricing = () => {
   return (
     <Section className="overflow-hidden" id="pricing">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <Image
-            src={smallSphere}
-            className="relative z-1"
+            src={genvlogo}
+            className="relative z-1 scale-[2]"
             width={255}
             height={255}
             alt="Sphere"

@@ -1,4 +1,5 @@
-import { brainwaveSymbol, check } from "../../public/assets";
+import { check } from "../../public/assets";
+import genvlogo from "../../public/assets/genvlogo.png";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -10,9 +11,7 @@ const Collaboration = () => {
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
-          </h2>
+          <h2 className="h2 mb-4 md:mb-8">GenV is there for you</h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
@@ -41,9 +40,10 @@ const Collaboration = () => {
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <Image
-                    src={brainwaveSymbol}
-                    width={48}
-                    height={48}
+                    src={genvlogo}
+                    width={450}
+                    height={450}
+                    className="scale-125"
                     alt="brainwave"
                   />
                 </div>

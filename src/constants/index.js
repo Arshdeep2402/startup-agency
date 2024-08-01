@@ -135,78 +135,86 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "By using the latest technologies available in the market, GenV is there for you to optimize and expand your business into the online world.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Latest Technologies",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Optimal Solutions",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Optimized and Clean Work",
   },
 ];
+
+import reactlogo from "../../public/assets/collab/react.png";
+import gitlogo from "../../public/assets/collab/github.png";
+import mongo from "../../public/assets/collab/mongo.png";
+import mysql from "../../public/assets/collab/mysql.png";
+import node from "../../public/assets/collab/node.png";
+import php from "../../public/assets/collab/php.png";
+import google from "../../public/assets/collab/google.png";
+import tailwind from "../../public/assets/collab/tailwind.png";
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "React",
+    icon: reactlogo,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "tailwind",
+    icon: tailwind,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Github",
+    icon: gitlogo,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Mongo",
+    icon: mongo,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Mysql",
+    icon: mysql,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Node",
+    icon: node,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "php",
+    icon: php,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Google Analytics",
+    icon: google,
     width: 38,
     height: 32,
   },
