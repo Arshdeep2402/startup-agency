@@ -4,7 +4,8 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping businesses create beautiful websites.
+        Redefining digital presence with modern web development, design, and
+        marketing.
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, index) => (

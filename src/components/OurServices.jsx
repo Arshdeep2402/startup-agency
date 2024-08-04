@@ -13,7 +13,7 @@ const OurServices = () => {
     "Web Designing",
     "Web Development",
     "Search Engine Optimization",
-    "Digital Marketing",
+    "Logo Designing",
   ];
 
   const servicesContent = [
@@ -33,7 +33,9 @@ const OurServices = () => {
       img2: service3,
       imgTilte1: "Web Development",
       imgTilte2: "Mobile Development",
-      desc: `We offer comprehensive web design and development services to create an effective online presence. By focusing on user experience, mobile responsiveness, SEO, and optimization, you can deliver a website that not only looks great, but performs well. Our expertise in design and development can transform your online business and make it powerful in terms of engagement, growth, and success.`,
+      desc: `We prioritize developing a website focusing on User Xperience (UX), mobile responsiveness,
+and SEO friendliness, that not only looks great but performs well. Transform and make your
+online business powerful in terms of engagement, growth, great ROI, and success.`,
     },
     {
       id: "2",
@@ -42,17 +44,24 @@ const OurServices = () => {
       img2: service3,
       imgTilte1: "Search Engine Optimization",
       imgTilte2: "Search Engine Optimization",
-      desc: `Providing search engine optimization and digital marketing services allows you to pave the way to online success. By combining these services, you can help your business improve search engine rankings, attract business customers, create policies, and achieve measurable results.`,
+      desc: `By optimizing your website, we drive targeted traffic, turning visitors into valuable leads. Our
+strategic approach enhances your brand’s credibility and trustworthiness, leading to higher
+engagement and conversion rates. With continuous improvements and adaptive strategies, we
+ensure your business stays competitive and relevant in the ever-evolving digital landscape.`,
     },
 
     {
       id: "3",
-      title: "Digital Marketing",
+      title: "Logo Designing",
       img1: service3,
       img2: service3,
-      imgTilte1: "Digital Marketing",
-      imgTilte2: "Digital Marketing",
-      desc: `Digital marketing is an essential part of the modern business world. By specializing in services like SEO, PPC, digital marketing, content marketing, and email marketing, you can provide valuable skills that can transform your business online. Your services help businesses reach their target audience, build brand awareness, and deliver measurable results, making you a key partner in their success.`,
+      imgTilte1: "Logo Designing",
+      imgTilte2: "Logo Designing",
+      desc: `Using a blend of creativity and strategic thinking, we create logos that stand out and leave a
+lasting impression. Whether you're looking for something modern and sleek or classic and
+timeless, we customize our designs to align perfectly with your brand’s identity. With GenV’s
+designed logo, you get a distinctive, professional brand image that sets you apart from the
+competition and resonates with your audience`,
     },
   ];
 

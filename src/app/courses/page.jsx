@@ -11,15 +11,15 @@ const Page = () => {
     <div>
       <Header />
       <Section
-        className="pt-[14rem] -mt-[5.25rem]"
+        className="pt-[9rem] -mt-[5.25rem]"
         crosses
         crossesOffset="lg:translate-y-[5.25rem]"
         customPaddings
-      ></Section>
-      <div className="container">
-        <OurServices />
-        <Pricing />
-      </div>
+      >
+        <div className="container">
+          <Pricing />
+        </div>
+      </Section>
       <Footer />
     </div>
   );
